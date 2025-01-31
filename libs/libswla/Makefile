@@ -6,7 +6,7 @@ SHORT_DESCRIPTION:=Shared Wifi Library using amx
 
 PKG_SOURCE:=libswla-sah-next_v3.14.0.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/prplmesh/pwhm/libraries/libswla/-/archive/sah-next_v3.14.0
-PKG_HASH:=skip
+PKG_HASH:=b7b0bb705daf2a13e8738a1c9266ccb15abcdd0fb680d31e01f7357de5e382f7
 PKG_BUILD_DIR:=$(BUILD_DIR)/libswla-sah-next_v3.14.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
