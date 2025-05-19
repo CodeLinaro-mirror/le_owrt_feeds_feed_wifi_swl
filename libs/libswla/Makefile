@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/prplmesh/pwhm/libraries/libswla/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libswla
-PKG_VERSION:=sah-next_v3.14.1
+PKG_VERSION:=sah-next_v3.14.2
 SHORT_DESCRIPTION:=Shared Wifi Library using amx
 
-PKG_SOURCE:=libswla-sah-next_v3.14.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/prplmesh/pwhm/libraries/libswla/-/archive/sah-next_v3.14.1
-PKG_HASH:=543595734703abf7a80ff47666c087fbeef6ad513115eba93af083785d0dfbfa
-PKG_BUILD_DIR:=$(BUILD_DIR)/libswla-sah-next_v3.14.1
+PKG_SOURCE:=libswla-sah-next_v3.14.2.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/prplmesh/pwhm/libraries/libswla/-/archive/sah-next_v3.14.2
+PKG_HASH:=b7984e0186bb70d70eca3b0500c98080d372a0123c66e862809ec3fa38693719
+PKG_BUILD_DIR:=$(BUILD_DIR)/libswla-sah-next_v3.14.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
