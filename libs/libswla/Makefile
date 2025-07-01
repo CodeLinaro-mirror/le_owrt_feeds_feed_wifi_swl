@@ -3,19 +3,20 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libswla
-PKG_VERSION:=sah-next_v3.14.4
+PKG_VERSION:=sah-next_v3.14.5
 SHORT_DESCRIPTION:=Shared Wifi Library using amx
 
-PKG_SOURCE:=libswla-sah-next_v3.14.4.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/prplmesh/pwhm/libraries/libswla/-/archive/sah-next_v3.14.4
-PKG_HASH:=cabce709fa56a9daba85c3394ca5d8da399a2562d066bed47d34eed03ec334b4
-PKG_BUILD_DIR:=$(BUILD_DIR)/libswla-sah-next_v3.14.4
+PKG_SOURCE:=libswla-sah-next_v3.14.5.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/prplmesh/pwhm/libraries/libswla/-/archive/sah-next_v3.14.5
+PKG_HASH:=43861a72ee1fef5b41f9e0bd618467880619bacca4594d620438c3350aab569f
+PKG_BUILD_DIR:=$(BUILD_DIR)/libswla-sah-next_v3.14.5
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
 
 
 PKG_RELEASE:=1
+PKG_BUILD_DEPENDS += openssl
 
 include $(INCLUDE_DIR)/package.mk
 
@@ -30,6 +31,7 @@ define Package/$(PKG_NAME)
   DEPENDS += +libamxp
   DEPENDS += +libamxd
   DEPENDS += +libamxb
+  DEPENDS += +libamxj
   DEPENDS += +amxrt
   MENU:=1
 endef
