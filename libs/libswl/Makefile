@@ -1,12 +1,14 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.softathome.com/ext_verizon/components/libswl/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 -include $(STAGING_DIR)/components.config
 
 PKG_NAME:=libswl
-PKG_VERSION:=v6.4.0
+PKG_VERSION:=v6.5.0
 SHORT_DESCRIPTION:=Shared Wifi Library using pcb
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=v6.4.0
+PKG_SOURCE_VERSION:=v6.5.0
 PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/libswl.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
