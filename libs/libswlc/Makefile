@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libswlc
-PKG_VERSION:=sah-next_v5.37.7
+PKG_VERSION:=sah-next_v5.38.0
 SHORT_DESCRIPTION:=Shared Wifi Library
 
-PKG_SOURCE:=libswlc-sah-next_v5.37.7.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/prplmesh/pwhm/libraries/libswlc/-/archive/sah-next_v5.37.7
-PKG_HASH:=507625e5fdf440bfa3e2303c53093498ab5a2ba28c88a5b9cd66eb1bb6377ce2
-PKG_BUILD_DIR:=$(BUILD_DIR)/libswlc-sah-next_v5.37.7
+PKG_SOURCE:=libswlc-sah-next_v5.38.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/prplmesh/pwhm/libraries/libswlc/-/archive/sah-next_v5.38.0
+PKG_HASH:=1be088b8f7bb77f9e9b8c31f93b086e50bc240a31a264099b60c1543f8d23b53
+PKG_BUILD_DIR:=$(BUILD_DIR)/libswlc-sah-next_v5.38.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
