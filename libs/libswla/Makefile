@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libswla
-PKG_VERSION:=sah-next_v3.15.3
+PKG_VERSION:=sah-next_v3.15.4
 SHORT_DESCRIPTION:=Shared Wifi Library using amx
 
-PKG_SOURCE:=libswla-sah-next_v3.15.3.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/prplmesh/pwhm/libraries/libswla/-/archive/sah-next_v3.15.3
-PKG_HASH:=30946b3314df099977ed36019673133ba47ebc4285b53cd10a1dcafe169457c7
-PKG_BUILD_DIR:=$(BUILD_DIR)/libswla-sah-next_v3.15.3
+PKG_SOURCE:=libswla-sah-next_v3.15.4.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/prplmesh/pwhm/libraries/libswla/-/archive/sah-next_v3.15.4
+PKG_HASH:=062a8d4d300e763378286ede576406f8f5ec8c4e72540a0a829b4b97e3fd5438
+PKG_BUILD_DIR:=$(BUILD_DIR)/libswla-sah-next_v3.15.4
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
