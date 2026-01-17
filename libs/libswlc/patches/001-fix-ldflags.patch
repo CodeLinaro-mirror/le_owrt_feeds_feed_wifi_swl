@@ -1,0 +1,13 @@
+diff --git a/src/Makefile b/src/Makefile
+index 1ff814e..0f4251d 100644
+--- a/src/Makefile
++++ b/src/Makefile
+@@ -11,7 +11,7 @@ TARGET_SO = $(OBJDIR)/$(COMPONENT).so
+ SRCDIR = .
+ INCDIR_PRIV = ../include_priv
+ INCDIRS = $(INCDIR_PRIV) $(if $(STAGINGDIR), $(STAGINGDIR)/include) $(if $(STAGINGDIR), $(STAGINGDIR)/usr/include)
+-STAGING_LIBDIR = $(if $(STAGINGDIR), -L$(STAGINGDIR)/lib) $(if $(STAGINGDIR), -L$(STAGINGDIR)/usr/lib) -L/lib
++STAGING_LIBDIR = $(if $(STAGINGDIR), -L$(STAGINGDIR)/lib) $(if $(STAGINGDIR), -L$(STAGINGDIR)/usr/lib)
+ 
+ # files
+ #HEADERS = $(wildcard $(INCDIR_PUB)/$(TARGET_NAME)/*.h)
